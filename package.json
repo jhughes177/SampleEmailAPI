@@ -1,0 +1,20 @@
+{
+  "name": "massmutualsample",
+  "version": "1.0.0",
+  "description": "small sample api for massmutual interview proccess, will use nodemailer npm package to send out emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemailer": "^6.5.0"
+  }
+}
